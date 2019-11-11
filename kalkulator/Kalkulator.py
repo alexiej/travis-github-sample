@@ -1,4 +1,5 @@
 class Kalkulator:
 
     def dodaj(self,a: int,b: int) -> int:
-        return a + b 
+
+        return a + b + 1
