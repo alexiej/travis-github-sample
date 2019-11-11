@@ -1,0 +1,8 @@
+language: python
+python:
+  - "3.6"
+before_install:
+install:
+  - pip install -r requriements.txt
+script:
+  - pytest
