@@ -1,6 +1,5 @@
 from kalkulator.Kalkulator import Kalkulator
 
-
 def test_dodaj():
     k = Kalkulator()
     assert k.dodaj(2,3) == 5
